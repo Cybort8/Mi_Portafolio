@@ -1,128 +1,115 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Keneth Rojas | Ingeniero de Sistemas y Desarrollador de Software",
+    "description": "Portafolio de Keneth Jassir Rojas Díaz, ingeniero de sistemas y desarrollador de software en Barranquilla, Colombia. Python, automatización y soporte TI.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Keneth Jassir Rojas Díaz",
+    "skill": "Ingeniero de Sistemas · Desarrollador de Software",
+    "location": "Barranquilla, Colombia",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "rojaskeneth007@gmail.com",
+        "phone": "+57 302 231 7321",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/keneth-rojas",
+        "likedin": "https://linkedin.com/in/keneth-rojas"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy estudiante de noveno semestre de Ingeniería de Sistemas y tecnólogo en Desarrollo de Software. He trabajado en soporte TI dentro de una multinacional, combinando desarrollo en Python, análisis de sistemas y atención a usuarios. Me interesan la inteligencia artificial, la automatización y la ciberseguridad, y busco aportar soluciones eficientes a problemas reales del negocio.",
     "technologies": [
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original",
+            "name": "GitHub"
+        },
+        {
+            "icon": "devicon-linux-plain",
+            "name": "Linux"
+        },
+        {
+            "icon": "devicon-windows8-original",
+            "name": "Windows"
         }
     ],
     "experience": [
         {
             "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
-        },
-        {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "title": "Tecnoglass S.A.S.",
+            "subtitle": "Practicante — Área de Sistemas / TI",
+            "description": "Soporte técnico N1 a más de 100 usuarios, mantenimiento preventivo y correctivo de equipos e impresoras, instalación y configuración de sistemas y herramientas corporativas, monitoreo básico de red, respaldos y documentación de procesos.",
+            "date": "Septiembre 2024 - Marzo 2025"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "database",
+            "title": "Sistema de Gestión Académica",
+            "subtitle": "Proyecto universitario",
+            "description": "Aplicación en Python para gestionar información de estudiantes con operaciones CRUD sobre una base de datos relacional, aplicando POO y modelado entidad-relación.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
                     "name": "Python"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
                 }
-            ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            ]
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "bot",
+            "title": "Automatización de Tareas con Python",
+            "subtitle": "Proyecto personal",
+            "description": "Scripts con pandas y openpyxl para automatizar la organización de archivos, la generación de reportes y el respaldo de información.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-pandas-line",
+                    "name": "pandas"
                 }
-            ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            ]
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "Ingeniería de Sistemas",
+            "subtitle": "Corporación Universitaria Politécnico de la Costa Atlántica",
+            "description": "En curso, noveno semestre.",
+            "date": "En curso"
         },
         {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "backpack",
+            "title": "Tecnólogo en Desarrollo de Software",
+            "subtitle": "Corporación Universitaria Politécnico de la Costa Atlántica",
+            "description": "Formación técnica en desarrollo de software.",
+            "date": "2022 - 2024"
         }
     ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
-        }
-    ]
+    "extras": []
 }

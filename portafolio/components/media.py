@@ -25,6 +25,10 @@ def media(data: Media) -> rx.Component:
                 "devicon-linkedin-plain",
                 data.likedin
             ),
+            icon_button(
+                "message-circle",
+                f"https://wa.me/{data.phone.replace(' ', '').replace('+', '')}"
+            ) if data.phone else rx.fragment(),
             spacing=Size.SMALL.value
         ),
         spacing=Size.SMALL.value,

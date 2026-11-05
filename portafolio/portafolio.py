@@ -22,7 +22,7 @@ def index() -> rx.Component:
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
             info("Formación", DATA.training),
-            extra(DATA.extras),
+            extra(DATA.extras) if DATA.extras else rx.fragment(),
             rx.divider(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,
