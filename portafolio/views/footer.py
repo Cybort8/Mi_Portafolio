@@ -4,9 +4,9 @@ from portafolio.data import Media
 from portafolio.styles.styles import Size
 
 
-def footer(data: Media) -> rx.Component:
+def footer(name: str, data: Media) -> rx.Component:
     return rx.vstack(
-        rx.text("Nombre"),
+        rx.text(name),
         media(data),
         spacing=Size.SMALL.value
     )

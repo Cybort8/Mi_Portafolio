@@ -24,7 +24,7 @@ def index() -> rx.Component:
             info("Formación", DATA.training),
             extra(DATA.extras) if DATA.extras else rx.fragment(),
             rx.divider(),
-            footer(DATA.media),
+            footer(DATA.name, DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
@@ -38,6 +38,8 @@ app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
 )
+# Sitio estático sin backend: evita el toast de "Cannot connect to server".
+app.app_wraps.pop((5, "Overlay"), None)
 
 title = DATA.title
 description = DATA.description

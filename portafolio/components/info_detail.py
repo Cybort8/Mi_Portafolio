@@ -30,8 +30,8 @@ def info_detail(info: Info) -> rx.Component:
                     spacing=Size.SMALL.value
                 ) if info.technologies else rx.fragment(),
                 rx.hstack(
-                    icon_button("link", info.url) if info.url else rx.fragment(),
-                    icon_button("devicon-github-original", info.github) if info.github else rx.fragment()
+                    icon_button("link", info.url, label="Abrir enlace") if info.url else rx.fragment(),
+                    icon_button("devicon-github-original", info.github, label="Ver repositorio") if info.github else rx.fragment()
                 ),
                 spacing=Size.SMALL.value,
                 width="100%"
@@ -41,6 +41,7 @@ def info_detail(info: Info) -> rx.Component:
         ),
         rx.image(
             src=info.image,
+            alt=info.title,
             height=IMAGE_HEIGHT,
             width="auto",
             border_radius=EmSize.DEFAULT.value,
@@ -51,7 +52,8 @@ def info_detail(info: Info) -> rx.Component:
             icon_button(
                 "shield-check",
                 info.certificate,
-                solid=True
+                solid=True,
+                label="Ver certificado"
             ) if info.certificate else rx.fragment(),
             spacing=Size.SMALL.value,
             align="end"

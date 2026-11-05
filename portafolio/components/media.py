@@ -10,24 +10,29 @@ def media(data: Media) -> rx.Component:
             "mail",
             f"mailto:{data.email}",
             data.email,
-            True
+            True,
+            "Enviar correo"
         ),
         rx.hstack(
             icon_button(
                 "file-text",
-                data.cv
+                data.cv,
+                label="Ver hoja de vida"
             ),
             icon_button(
                 "devicon-github-original",
-                data.github
+                data.github,
+                label="GitHub"
             ),
             icon_button(
                 "devicon-linkedin-plain",
-                data.likedin
+                data.likedin,
+                label="LinkedIn"
             ),
             icon_button(
                 "message-circle",
-                f"https://wa.me/{data.phone.replace(' ', '').replace('+', '')}"
+                f"https://wa.me/{data.phone.replace(' ', '').replace('+', '')}",
+                label="WhatsApp"
             ) if data.phone else rx.fragment(),
             spacing=Size.SMALL.value
         ),
