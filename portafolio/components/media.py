@@ -18,11 +18,11 @@ def media(data: Media) -> rx.Component:
                 data.cv
             ),
             icon_button(
-                "github",
+                "devicon-github-original",
                 data.github
             ),
             icon_button(
-                "linkedin",
+                "devicon-linkedin-plain",
                 data.likedin
             ),
             spacing=Size.SMALL.value

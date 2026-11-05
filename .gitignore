@@ -1,6 +1,9 @@
+assets/external/
+.states
 *.db
 *.py[cod]
 .venv
 .web
 __pycache__/
 public/
+frontend.zip
