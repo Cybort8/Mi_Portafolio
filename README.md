@@ -35,6 +35,8 @@ bash build.sh
 
 Genera el sitio estático en `public/`. El proyecto está configurado para desplegarse en [Vercel](https://vercel.com) mediante `vercel.json` y `build.sh`.
 
+El dominio de producción se toma automáticamente de `VERCEL_PROJECT_PRODUCTION_URL` y se usa para el `og:image` y el `sitemap.xml`. Para forzarlo manualmente, define `REFLEX_DEPLOY_URL`.
+
 ## Créditos
 
 Basado en [portafolio-template](https://github.com/mouredev/portafolio-template) de Brais Moure, bajo licencia Apache 2.0 (ver [`LICENSE`](LICENSE)).

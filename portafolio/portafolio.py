@@ -37,6 +37,9 @@ def index() -> rx.Component:
 app = rx.App(
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
+    head_components=[
+        rx.el.link(rel="icon", type="image/svg+xml", href="/favicon.svg"),
+    ],
 )
 # Sitio estático sin backend: evita el toast de "Cannot connect to server".
 app.app_wraps.pop((5, "Overlay"), None)

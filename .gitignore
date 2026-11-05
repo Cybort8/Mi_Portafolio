@@ -7,3 +7,4 @@ assets/external/
 __pycache__/
 public/
 frontend.zip
+.vercel
