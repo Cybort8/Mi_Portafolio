@@ -41,7 +41,7 @@ app = rx.App(
 
 title = DATA.title
 description = DATA.description
-image = DATA.image
+image = f"{rx.config.get_config().deploy_url.rstrip('/')}{DATA.image}"
 
 app.add_page(
     index,
@@ -49,8 +49,7 @@ app.add_page(
     description=description,
     image=image,
     meta=[
-        {"name": "og:title", "content": title},
-        {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image}
+        {"property": "og:title", "content": title},
+        {"property": "og:description", "content": description}
     ]
 )

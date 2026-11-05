@@ -6,8 +6,8 @@ config = rx.Config(
         rx.plugins.RadixThemesPlugin(
             theme=rx.theme(
                 appearance="dark",
-                accent_color="grass",
-                radius="full"
+                accent_color="violet",
+                radius="medium"
             )
         ),
         rx.plugins.SitemapPlugin(),
