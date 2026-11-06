@@ -7,13 +7,13 @@
     "skill": "Ingeniero de Sistemas · Desarrollador de Software",
     "location": "Barranquilla, Colombia",
     "media": {
-        "email": "rojaskeneth007@gmail.com",
+        "email": "ing.kenethrojas@gmail.com",
         "phone": "+57 302 231 7321",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/keneth-rojas",
+        "github": "https://github.com/Cybort8",
         "likedin": "https://linkedin.com/in/keneth-rojas"
     },
-    "about": "Soy estudiante de noveno semestre de Ingeniería de Sistemas y tecnólogo en Desarrollo de Software. He trabajado en soporte TI dentro de una multinacional, combinando desarrollo en Python, análisis de sistemas y atención a usuarios. Me interesan la inteligencia artificial, la automatización y la ciberseguridad, y busco aportar soluciones eficientes a problemas reales del negocio.",
+    "about": "Soy estudiante de décimo semestre de Ingeniería de Sistemas y tecnólogo en Desarrollo de Software. He trabajado en soporte TI dentro de una multinacional, combinando desarrollo en Python, análisis de sistemas y atención a usuarios. Me interesan la inteligencia artificial, la automatización y la ciberseguridad, y busco aportar soluciones eficientes a problemas reales del negocio. Actualmente busco oportunidades como desarrollador full-time.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -50,6 +50,18 @@
         {
             "icon": "devicon-windows8-original",
             "name": "Windows"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-nodejs-plain",
+            "name": "Node.js"
+        },
+        {
+            "icon": "devicon-docker-plain",
+            "name": "Docker"
         }
     ],
     "experience": [
@@ -76,7 +88,8 @@
                     "icon": "devicon-postgresql-plain",
                     "name": "PostgreSQL"
                 }
-            ]
+            ],
+            "github": "https://github.com/Cybort8/Web_Centro_Educativo_Carrusel"
         },
         {
             "icon": "bot",
@@ -92,7 +105,21 @@
                     "icon": "devicon-pandas-line",
                     "name": "pandas"
                 }
-            ]
+            ],
+            "github": "https://github.com/Cybort8/dlmusic-cli"
+        },
+        {
+            "icon": "code",
+            "title": "Portafolio Profesional",
+            "subtitle": "Proyecto personal",
+            "description": "Portafolio web minimalista desarrollado con Python y Reflex.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                }
+            ],
+            "github": "https://github.com/Cybort8/MiPortafolio"
         }
     ],
     "training": [
@@ -100,7 +127,7 @@
             "icon": "graduation-cap",
             "title": "Ingeniería de Sistemas",
             "subtitle": "Corporación Universitaria Politécnico de la Costa Atlántica",
-            "description": "En curso, noveno semestre.",
+            "description": "En curso, décimo semestre.",
             "date": "En curso"
         },
         {
