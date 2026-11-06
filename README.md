@@ -2,6 +2,8 @@
 
 Portafolio personal de **Keneth Jassir Rojas Díaz**, ingeniero de sistemas y desarrollador de software.
 
+🚀 **[Visita el portafolio en producción](https://portafolio-keneth-rojas.vercel.app/)**
+
 Sitio estático generado con [Python](https://python.org) y [Reflex](https://reflex.dev).
 
 ## Requisitos
